@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaib Echesa's CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-video">
+    <video autoplay muted loop id="video-background">
+      <source src="https://media.istockphoto.com/id/1361092075/video/core-of-reality-color-04.mp4?s=mp4-640x640-is&k=20&c=7AwUdjOUcV0w-I0AizprY8U75qqCTQHlDzr3tYflC7c=" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="content">
+    <h1>Shaib Echesa Makokha</h1>
+    <h2>Customer Care Specialist</h2>
+    <p>Nairobi County, Kenya</p>
+    <div id="experience-container"></div>
+    <button id="add-experience-btn">Add Experience</button>
+  </div>
+
+  <!-- Add Experience Modal -->
+  <div id="add-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-add-modal" class="close">&times;</span>
+      <form id="add-experience-form">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required>
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="position" required>
+        <label for="startDate">Start Date:</label>
+        <input type="text" id="startDate" name="startDate" required>
+        <label for="endDate">End Date:</label>
+        <input type="text" id="endDate" name="endDate" required>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <label for="responsibilities">Responsibilities (comma separated):</label>
+        <input type="text" id="responsibilities" name="responsibilities" required>
+        <button type="submit">Add Experience</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Edit Experience Modal -->
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-edit-modal" class="close">&times;</span>
+      <form id="edit-experience-form">
+        <input type="hidden" id="edit-id" name="id">
+        <label for="edit-company">Company:</label>
+        <input type="text" id="edit-company" name="company" required>
+        <label for="edit-position">Position:</label>
+        <input type="text" id="edit-position" name="position" required>
+        <label for="edit-startDate">Start Date:</label>
+        <input type="text" id="edit-startDate" name="startDate" required>
+        <label for="edit-endDate">End Date:</label>
+        <input type="text" id="edit-endDate" name="endDate" required>
+        <label for="edit-location">Location:</label>
+        <input type="text" id="edit-location" name="location" required>
+        <label for="edit-responsibilities">Responsibilities (comma separated):</label>
+        <input type="text" id="edit-responsibilities" name="responsibilities" required>
+        <button type="submit">Update Experience</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

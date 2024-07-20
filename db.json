@@ -1,0 +1,131 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "company": "Sportserve",
+      "position": "Digital Customer Care Executive",
+      "startDate": "October 2020",
+      "endDate": "December 2023",
+      "location": "Nairobi, Kenya",
+      "responsibilities": [
+        "Prompt and Personalized Responses",
+        "Comprehensive Issue Resolution",
+        "Technical Support",
+        "Account Management Assistance",
+        "Game Insights",
+        "Financial Transaction Support",
+        "Promoting Responsible Gaming",
+        "Escalation Protocol",
+        "Documentation and Reporting",
+        "Compliance and Security Adherence",
+        "Continuous Learning and Industry Awareness"
+      ]
+    },
+    {
+      "company": "iSON Xperiences",
+      "position": "Customer Service Representative",
+      "startDate": "January 2020",
+      "endDate": "June 2020",
+      "location": "Nairobi, Kenya",
+      "responsibilities": [
+        "Inbound Call Handling",
+        "Email Correspondence",
+        "Account Assistance",
+        "Service Information",
+        "Billing and Payments",
+        "Plan Recommendations",
+        "Technical Support",
+        "Complaint Resolution",
+        "Service Activation and Deactivation",
+        "Promotion Awareness",
+        "Documentation",
+        "Continuous Learning"
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "company": "Adept Technologies",
+      "position": "Call Center Representative",
+      "startDate": "January 2019",
+      "endDate": "December 2019",
+      "location": "Nairobi, Kenya",
+      "responsibilities": [
+        "Multi-Channel Interaction",
+        "Holistic Debt Evaluation",
+        "Effective Communication",
+        "Personalized Debt Strategies",
+        "Regulatory Adherence",
+        "Data Security Measures",
+        "Thorough Documentation",
+        "Timely Response Management",
+        "Financial Literacy Promotion",
+        "Practical Problem Solving"
+      ]
+    },
+    {
+      "id": "4",
+      "company": "Kuehne+Nagel",
+      "position": "Customer Service Specialist",
+      "startDate": "July 2018",
+      "endDate": "December 2018",
+      "location": "Nairobi, Kenya",
+      "responsibilities": [
+        "Client Interaction",
+        "Order Processing",
+        "Specialized Expertise",
+        "Cargo Monitoring",
+        "Documentation",
+        "Communication",
+        "Problem Solving",
+        "Quality Assurance",
+        "Compliance",
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "5",
+      "company": "Horizon Contact Centers Ltd",
+      "position": "Customer Service Representative",
+      "startDate": "January 2017",
+      "endDate": "June 2018",
+      "location": "Nairobi, Kenya",
+      "responsibilities": [
+        "Inbound Call Handling",
+        "Product Knowledge",
+        "Issue Resolution",
+        "Subscription Assistance",
+        "Technical Support",
+        "Billing and Payments",
+        "Service Activation",
+        "Plan Recommendations",
+        "Complaint Resolution",
+        "Documentation",
+        "Promotion Awareness",
+        "Continuous Learning"
+      ]
+    },
+    {
+      "id": "6",
+      "company": "Remit-Kenya",
+      "position": "Enumerator (Volunteer)",
+      "startDate": "January 2016",
+      "endDate": "December 2016",
+      "location": "Mumias, Kakamega County, Kenya",
+      "responsibilities": [
+        "Data Collection",
+        "Participant Interaction",
+        "Questionnaire Administration",
+        "Data Verification",
+        "Consent Process",
+        "Record Keeping",
+        "Health Education",
+        "Language Skills",
+        "Field Reporting",
+        "Quality Control",
+        "Community Engagement",
+        "Ethical Compliance"
+      ]
+    }
+  ]
+}

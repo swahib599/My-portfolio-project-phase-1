@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  #video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: relative;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  #experience-container {
+    display: flex;
+    flex-wrap: wrap; /* Make the items wrap to the next line */
+    gap: 20px; /* Space between items */
+  }
+  
+  .experience-item {
+    flex: 1 1 calc(33.333% - 40px); /* Responsive item sizing */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  .experience-item:hover {
+    background: rgba(255, 255, 255, 0.1); /* Slight background on hover */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Space between buttons and other content */
+  }
+  
+  /* Different hover colors for each button */
+  button.add-experience:hover {
+    background-color: green;
+  }
+  
+  button.edit-experience:hover {
+    background-color: blue;
+  }
+  
+  button.delete-experience:hover {
+    background-color: red;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* Adjust margin to center */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 800px; /* Set a maximum width */
+    height: 80%; /* Set height to 80% */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-content input {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: calc(100% - 22px); /* Ensure input fields take up full width */
+    box-sizing: border-box;
+  }
+  
